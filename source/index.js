@@ -1,6 +1,7 @@
 import * as helper from './helper'
 import React, { Component } from 'react'
 import {
+    Dimensions,
     StyleSheet,
     PanResponder,
     View,
@@ -9,7 +10,6 @@ import {
 import Line from './line'
 import Circle from './circle'
 import PropTypes from 'prop-types';
-let Dimensions=require("Dimensions");
 const Width = Dimensions.get('window').width;
 const Height = Dimensions.get('window').height;
 const isVertical = Height > Width;
